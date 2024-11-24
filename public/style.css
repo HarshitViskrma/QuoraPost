@@ -1,0 +1,87 @@
+h1 {
+    color: maroon;
+    text-align: center;
+}
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.post {
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.user {
+    font-style: italic;
+}
+
+.new-post {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: maroon;
+    border-radius: 8px;
+    border: 1.5px solid maroon;
+    padding: 5px;
+    margin: 15px;
+}
+.detail-btn {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: maroon;
+    border-radius: 8px;
+    border: 1.5px solid maroon;
+    padding: 5px;
+}
+.edit-btn {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: maroon;
+    border-radius: 8px;
+    border: 1.5px solid maroon;
+    padding: 5px;
+}
+.delete-btn {
+    background-color: maroon;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    border: 1.5px solid blanchedalmond;
+    padding: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.content {
+    background-color: white;
+    color: #3c3c3c;
+    border-radius: 10px;
+    font-weight: normal;
+    padding: 10px;
+}
+.sub-tittle {
+    margin-left: 20px;
+}
+.post-detail {
+    font-weight: bold;
+    margin-left: 20px;
+}
+.edit-post {
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.edit-text {
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #3c3c3c;
+    font-size: 17px;
+}
+.submit {
+    margin-left: 20px;
+}
