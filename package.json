@@ -4,7 +4,6 @@
   "main": "index.js",
   "homepage": "https://harshitviskrma.github.io/QuoraPost",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run your-build-script",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
