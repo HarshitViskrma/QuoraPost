@@ -13,7 +13,7 @@
         <p class="post-detail">Post Id: <%= post.id  %></p>
         <p class="post-detail">Post Username: @<%= post.username  %></p>
         <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
-        <textarea rows="10" cols="135" name="content" class="edit-text"><%= post.content  %></textarea>
+        <textarea rows="10" name="content" class="edit-text"><%= post.content  %></textarea>
         <br>
         <button class="delete-btn submit">Submit</button>
     </form>

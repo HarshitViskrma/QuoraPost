@@ -75,6 +75,7 @@ h1 {
 }
 
 .edit-text {
+    width: 80%;
     margin: 15px;
     border: none;
     border-radius: 10px;
