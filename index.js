@@ -35,6 +35,10 @@ let posts = [
         content: "A long trusted resource that keeps up-to-date with the latest in men’s fashion. Includes lifestyle advice along with breaking news covering everything from current events and politics to Hollywood celebrity gossip."
     },
 ];
+app.get("/", (req, res) => {
+    res.render("index.ejs", {posts});
+});
+
 app.get("/posts", (req, res) => {
     res.render("index.ejs", {posts});
 });
