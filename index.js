@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = process.env.PORT || quorapost.onrender.com;
+const port = process.env.PORT || 8080;
 const path = require('path');
 const {v4: uuidv4} = require('uuid');
 
