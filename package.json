@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "This is the platform where you see the others post and their text.",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
     "http": "^0.0.1-security",
